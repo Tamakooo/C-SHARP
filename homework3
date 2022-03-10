@@ -1,0 +1,115 @@
+namespace homework3
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            square AAA = new square(5);
+            AAA.getArea();
+            AAA.showArea();
+            rectangle BBB = new rectangle(3, 4);
+            BBB.getArea();
+            BBB.showArea();
+            triangle CCC = new triangle(2, 2, 2);
+            CCC.getArea();
+            CCC.showArea();
+        }
+    }
+}
+    abstract class polygon
+    {
+        protected double area;
+    }
+class rectangle:polygon
+{
+        private  double length;
+        private double width;
+        public rectangle(double length,double width)
+        {
+            this.length = length;
+            this.width = width;
+        }
+        public rectangle() { }
+        public double Length { 
+            get { return length; } 
+            set { length = value; }
+        }
+        public double Width
+        {
+            get { return width; }
+            set { width = value; }
+        }
+        public double getArea()
+        {
+            area = length * width;
+            return area;
+        }
+        public void showArea()
+        {
+        Console.WriteLine($"area:{area}");
+        }
+
+
+}
+class triangle:polygon
+{
+    private double a;
+    private double b;
+    private double c;
+    public triangle(double a, double b,double c)
+    {
+        this.a = a;
+        this.b = b;
+        this.c = c;
+    }
+    public triangle() { }
+    public double A
+    {
+        get { return a; }
+        set { a = value; }
+    }
+    public double B
+    {
+        get { return b; }
+        set { b = value; }
+    }
+    public double C
+    {
+        get { return c; }
+        set { c= value; }
+    }
+    public double getArea()
+    {
+        area = Math.Pow((a+b+c)/2* ((a + b + c) / 2-a)* ((a + b + c) / 2 - b)* ((a + b + c) / 2 - c),0.5);
+
+        return area;
+    }
+    public void showArea()
+    {
+        Console.WriteLine($"area:{area}");
+    }
+
+}
+class square : polygon
+{
+    private double side;
+    public square(double side)
+    {
+        this.side = side;
+    }
+    public square() { }
+    public double Side
+    {
+        get { return side; }
+        set { side = value; }
+    }
+    public double getArea()
+    {
+        area = side * side;
+        return area;
+    }
+    public void showArea()
+    {
+        Console.WriteLine($"area:{area}");
+    }
+}
