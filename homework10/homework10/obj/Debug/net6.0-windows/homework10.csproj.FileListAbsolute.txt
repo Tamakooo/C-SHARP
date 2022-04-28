@@ -1,0 +1,17 @@
+C:\Users\86177\source\repos\homework10\homework10\bin\Debug\net6.0-windows\homework10.exe
+C:\Users\86177\source\repos\homework10\homework10\bin\Debug\net6.0-windows\homework10.deps.json
+C:\Users\86177\source\repos\homework10\homework10\bin\Debug\net6.0-windows\homework10.runtimeconfig.json
+C:\Users\86177\source\repos\homework10\homework10\bin\Debug\net6.0-windows\homework10.dll
+C:\Users\86177\source\repos\homework10\homework10\bin\Debug\net6.0-windows\homework10.pdb
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.csproj.AssemblyReference.cache
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.Form1.resources
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.csproj.GenerateResource.cache
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.AssemblyInfoInputs.cache
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.AssemblyInfo.cs
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.csproj.CoreCompileInputs.cache
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.dll
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\refint\homework10.dll
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.pdb
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\homework10.genruntimeconfig.cache
+C:\Users\86177\source\repos\homework10\homework10\obj\Debug\net6.0-windows\ref\homework10.dll
